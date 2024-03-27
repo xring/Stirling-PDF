@@ -209,10 +209,6 @@
                     <input type="range" class="form-range" min="1" max="9" step="1" id="zipThreshold" value="4">
                     <span id="zipThresholdValue" class="ms-2"></span>
                   </div>
-                  <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="boredWaiting">
-                    <label class="form-check-label" for="boredWaiting" th:text="#{bored}"></label>
-                  </div>
                   <a th:if="${@loginEnabled}" href="account" class="btn btn-sm btn-outline-primary" role="button" th:text="#{settings.accountSettings}" target="_blank">Account Settings</a>
                 </div>
                 <div class="modal-footer">
