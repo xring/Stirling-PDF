@@ -3097,10 +3097,10 @@ body {
   mask-image: var(--toolbarButton-openFile-icon);
 }
 
-:is(#backToHome, #secondaryBackToHome)::before {
-  -webkit-mask-image: var(--toolbarButton-backToHome-icon);
-  mask-image: var(--toolbarButton-backToHome-icon);
-}
+/*:is(#backToHome, #secondaryBackToHome)::before {*/
+/*  -webkit-mask-image: var(--toolbarButton-backToHome-icon);*/
+/*  mask-image: var(--toolbarButton-backToHome-icon);*/
+/*}*/
 
 :is(#download, #secondaryDownload)::before {
   -webkit-mask-image: var(--toolbarButton-download-icon);
